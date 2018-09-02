@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">SimpleTVGuide</string>
+
+    <string-array name="mock_program_name_array">
+        <item>Program 1</item>
+        <item>Program 2</item>
+        <item>Program 3</item>
+        <item>Program 4</item>
+        <item>Program 5</item>
+        <item>Program 6</item>
+        <item>Program 7</item>
+        <item>Program 8</item>
+        <item>Program 9</item>
+        <item>Program 10</item>
+        <item>Program 11</item>
+        <item>Program 12</item>
+        <item>Program 13</item>
+        <item>Program 14</item>
+        <item>Program 15</item>
+        <item>Program 16</item>
+        <item>Program 17</item>
+        <item>Program 18</item>
+        <item>Program 19</item>
+        <item>Program 20</item>
+        <item>Program 21</item>
+        <item>Program 22</item>
+        <item>Program 23</item>
+        <item>Program 24</item>
+        <item>Program 25</item>
+        <item>Program 26</item>
+        <item>Program 27</item>
+        <item>Program 28</item>
+        <item>Program 29</item>
+        <item>Program 30</item>
+        <item>Program 31</item>
+        <item>Program 32</item>
+        <item>Program 33</item>
+        <item>Program 34</item>
+        <item>Program 35</item>
+        <item>Program 36</item>
+        <item>Program 37</item>
+        <item>Program 38</item>
+        <item>Program 39</item>
+        <item>Program 40</item>
+
+    </string-array>
 </resources>
