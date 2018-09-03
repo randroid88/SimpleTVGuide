@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         viewManager = LinearLayoutManager(this)
-        viewAdapter = SingleChannelGuideAdapter(getMockProgramList())
+        viewAdapter = SingleChannelAdapter(getMockProgramList())
 
         recyclerView = findViewById<RecyclerView>(R.id.single_channel_guide_recycler_view).apply {
             setHasFixedSize(true)

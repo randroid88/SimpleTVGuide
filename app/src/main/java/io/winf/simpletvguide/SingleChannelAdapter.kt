@@ -5,13 +5,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 
-class SingleChannelGuideAdapter(private val programList: List<String>) :
-        RecyclerView.Adapter<SingleChannelGuideAdapter.ProgramViewHolder>() {
+class SingleChannelAdapter(private val programList: List<String>) :
+        RecyclerView.Adapter<SingleChannelAdapter.ProgramViewHolder>() {
 
     class ProgramViewHolder(val textView: TextView) : RecyclerView.ViewHolder(textView)
 
     override fun onCreateViewHolder(parent: ViewGroup,
-                                    viewType: Int): SingleChannelGuideAdapter.ProgramViewHolder {
+                                    viewType: Int): SingleChannelAdapter.ProgramViewHolder {
         val textView = LayoutInflater.from(parent.context)
                 .inflate(R.layout.program_text_view, parent, false) as TextView
 
