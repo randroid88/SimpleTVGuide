@@ -1,4 +1,4 @@
-package io.winf.simpletvguide
+package io.winf.simpletvguide.main
 
 import android.support.v4.app.Fragment
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
+import io.winf.simpletvguide.R
 import io.winf.simpletvguide.singlechannel.SingleChannelFragment
 
 class MainFragment : Fragment(), View.OnClickListener {

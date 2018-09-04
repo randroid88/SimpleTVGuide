@@ -1,7 +1,8 @@
-package io.winf.simpletvguide
+package io.winf.simpletvguide.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import io.winf.simpletvguide.R
 
 class MainActivity : AppCompatActivity() {
 
