@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
+import io.winf.simpletvguide.singlechannel.SingleChannelFragment
 
 class MainFragment : Fragment(), View.OnClickListener {
 
@@ -20,7 +21,10 @@ class MainFragment : Fragment(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        TODO("not implemented")
+        val ft = fragmentManager!!.beginTransaction()
+        ft.replace(R.id.container, SingleChannelFragment())
+        ft.addToBackStack(null)
+        ft.commit()
     }
 
 }
